@@ -19,7 +19,7 @@ export default function Section({ id, eyebrow, title, children }: { id: string; 
                 {eyebrow}
               </div>
             )}
-            {title && <h2 className="text-4xl md:text-5xl font-bold">{title}</h2>}
+            {title && <h2 className="text-4xl md:text-5xl font-bold uppercase tracking-tight">{title}</h2>}
           </motion.div>
         )}
         {children}

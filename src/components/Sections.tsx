@@ -52,7 +52,7 @@ export function About() {
 
 export function Experience() {
   return (
-    <Section id="experience" eyebrow="02 — Experience" title="Where I've worked">
+    <Section id="experience" eyebrow="03 — Experience" title="Where I've worked">
       <motion.div
         initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }} transition={{ duration: 0.6 }}

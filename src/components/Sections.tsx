@@ -242,27 +242,76 @@ export function Contact() {
           <Mail size={18} /> Say hello
         </motion.a>
       </div>
-      <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {items.map((it, i) => (
-          <motion.a
-            key={it.label}
-            href={it.href} target={it.href.startsWith("http") ? "_blank" : undefined} rel="noreferrer"
-            initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }}
-            whileHover={{ y: -4 }}
-            className="glass rounded-2xl p-5 group"
-          >
-            <div className="flex items-center gap-3">
-              <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-primary/20 to-secondary/20 grid place-items-center text-primary group-hover:scale-110 transition">
-                <it.Icon size={18} />
-              </div>
-              <div className="min-w-0">
-                <div className="text-xs font-mono uppercase tracking-wider text-muted-foreground">{it.label}</div>
-                <div className="text-sm font-medium truncate">{it.value}</div>
-              </div>
+
+      <div className="mt-16 grid lg:grid-cols-5 gap-6">
+        <motion.form
+          initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }} transition={{ duration: 0.6 }}
+          action="mailto:zahidsiddiqb@gmail.com"
+          method="post"
+          encType="text/plain"
+          className="lg:col-span-3 glass rounded-3xl p-6 md:p-8 space-y-4"
+        >
+          <div className="grid sm:grid-cols-2 gap-4">
+            <div>
+              <label className="text-xs font-mono uppercase tracking-wider text-muted-foreground">Name</label>
+              <input
+                required name="name" type="text" placeholder="Your name"
+                className="mt-2 w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-primary/60 transition"
+              />
             </div>
-          </motion.a>
-        ))}
+            <div>
+              <label className="text-xs font-mono uppercase tracking-wider text-muted-foreground">Email</label>
+              <input
+                required name="email" type="email" placeholder="you@company.com"
+                className="mt-2 w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-primary/60 transition"
+              />
+            </div>
+          </div>
+          <div>
+            <label className="text-xs font-mono uppercase tracking-wider text-muted-foreground">Subject</label>
+            <input
+              name="subject" type="text" placeholder="Job opportunity, project, collaboration…"
+              className="mt-2 w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-primary/60 transition"
+            />
+          </div>
+          <div>
+            <label className="text-xs font-mono uppercase tracking-wider text-muted-foreground">Message</label>
+            <textarea
+              required name="message" rows={5} placeholder="Tell me a bit about what you're working on…"
+              className="mt-2 w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-primary/60 transition resize-none"
+            />
+          </div>
+          <button
+            type="submit"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-primary to-secondary text-primary-foreground font-semibold uppercase tracking-wider text-sm glow-shadow hover:scale-[1.03] transition-transform"
+          >
+            <Mail size={16} /> Send Message
+          </button>
+        </motion.form>
+
+        <div className="lg:col-span-2 grid sm:grid-cols-2 lg:grid-cols-1 gap-4">
+          {items.map((it, i) => (
+            <motion.a
+              key={it.label}
+              href={it.href} target={it.href.startsWith("http") ? "_blank" : undefined} rel="noreferrer"
+              initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }} transition={{ duration: 0.5, delay: i * 0.08 }}
+              whileHover={{ y: -4 }}
+              className="glass rounded-2xl p-5 group"
+            >
+              <div className="flex items-center gap-3">
+                <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-primary/20 to-secondary/20 grid place-items-center text-primary group-hover:scale-110 transition">
+                  <it.Icon size={18} />
+                </div>
+                <div className="min-w-0">
+                  <div className="text-xs font-mono uppercase tracking-wider text-muted-foreground">{it.label}</div>
+                  <div className="text-sm font-medium truncate">{it.value}</div>
+                </div>
+              </div>
+            </motion.a>
+          ))}
+        </div>
       </div>
     </Section>
   );

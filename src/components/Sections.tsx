@@ -106,7 +106,7 @@ const projects = [
 
 export function Projects() {
   return (
-    <Section id="projects" eyebrow="03 — Projects" title="Selected work">
+    <Section id="projects" eyebrow="04 — Projects" title="Selected work">
       <div className="grid md:grid-cols-2 gap-6">
         {projects.map((p, i) => (
           <motion.article

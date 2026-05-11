@@ -83,6 +83,19 @@ export default function Hero() {
         </motion.p>
 
         <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.7 }}
+          className="mt-5 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs font-mono uppercase tracking-widest text-muted-foreground"
+        >
+          <span>📍 Mangalore, India</span>
+          <span className="hidden sm:inline opacity-40">/</span>
+          <span>BCA · 2026</span>
+          <span className="hidden sm:inline opacity-40">/</span>
+          <span>Open to Remote & Onsite</span>
+        </motion.div>
+
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.8 }}

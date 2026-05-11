@@ -217,7 +217,7 @@ export function Contact() {
     { Icon: Github, label: "GitHub", value: "buddazahid", href: "https://github.com/buddazahid" },
   ];
   return (
-    <Section id="contact" eyebrow="06 — Contact">
+    <Section id="contact" eyebrow="07 — Contact">
       <div className="text-center max-w-3xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}

@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "MOHAMMED ZAHID || SOFTWARE ENGINEER" },
+      { name: "description", content: "A modern, ATS-friendly developer portfolio website showcasing Mohammed Zahid's skills and projects." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "MOHAMMED ZAHID || SOFTWARE ENGINEER" },
+      { property: "og:description", content: "A modern, ATS-friendly developer portfolio website showcasing Mohammed Zahid's skills and projects." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "MOHAMMED ZAHID || SOFTWARE ENGINEER" },
+      { name: "twitter:description", content: "A modern, ATS-friendly developer portfolio website showcasing Mohammed Zahid's skills and projects." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ac5a48c3-5880-4eac-ac8c-0fd6bb1a04c0/id-preview-6558bd41--b019248d-dbc4-425f-8a33-6283c0b1b68d.lovable.app-1778482402609.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/ac5a48c3-5880-4eac-ac8c-0fd6bb1a04c0/id-preview-6558bd41--b019248d-dbc4-425f-8a33-6283c0b1b68d.lovable.app-1778482402609.png" },
     ],
     links: [
       {

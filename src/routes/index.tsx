@@ -24,12 +24,14 @@ function Index() {
   return (
     <div className="dark relative min-h-screen overflow-x-hidden">
       <Loader />
+      <ScrollProgress />
       <Particles />
       <Cursor />
       <Navbar />
       <main>
         <Hero />
         <About />
+        <Services />
         <Experience />
         <Projects />
         <Skills />

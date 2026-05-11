@@ -152,7 +152,7 @@ const skillGroups = [
 
 export function Skills() {
   return (
-    <Section id="skills" eyebrow="04 — Skills" title="Technologies I work with">
+    <Section id="skills" eyebrow="05 — Skills" title="Technologies I work with">
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {skillGroups.map((g, i) => (
           <motion.div

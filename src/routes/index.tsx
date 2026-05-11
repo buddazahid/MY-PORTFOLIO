@@ -4,6 +4,8 @@ import Hero from "@/components/Hero";
 import Particles from "@/components/Particles";
 import Cursor from "@/components/Cursor";
 import Loader from "@/components/Loader";
+import ScrollProgress from "@/components/ScrollProgress";
+import Services from "@/components/Services";
 import { About, Experience, Projects, Skills, Education, Contact, Footer } from "@/components/Sections";
 
 export const Route = createFileRoute("/")({
@@ -22,12 +24,14 @@ function Index() {
   return (
     <div className="dark relative min-h-screen overflow-x-hidden">
       <Loader />
+      <ScrollProgress />
       <Particles />
       <Cursor />
       <Navbar />
       <main>
         <Hero />
         <About />
+        <Services />
         <Experience />
         <Projects />
         <Skills />

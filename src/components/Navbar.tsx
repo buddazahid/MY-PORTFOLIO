@@ -31,7 +31,7 @@ export default function Navbar() {
       <div className={`mx-auto max-w-6xl px-4 ${scrolled ? "" : ""}`}>
         <nav className={`flex items-center justify-between rounded-2xl px-5 py-3 ${scrolled ? "glass" : ""}`}>
           <a href="#home" className="font-display text-lg font-bold">
-            <span className="text-gradient">MZ</span>
+            <span className="text-gradient">BUDDA</span>
             <span className="text-foreground/70">.dev</span>
           </a>
           <ul className="hidden md:flex items-center gap-7 text-sm text-muted-foreground">

@@ -102,8 +102,10 @@ export default function Hero() {
           className="mt-10 flex flex-wrap justify-center gap-4"
         >
           <a
-            href="/resume.pdf"
-            download
+            href="https://drive.google.com/uc?export=download&id=1T7pCctw4f06MpT2d_JO3LMImX1HveIVR"
+            target="_blank"
+            rel="noreferrer"
+            download="Mohammed-Zahid-Resume.pdf"
             className="group relative inline-flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-primary to-secondary text-primary-foreground font-semibold uppercase tracking-wider text-sm glow-shadow hover:scale-105 transition-transform"
           >
             <Download size={18} /> DOWNLOAD RESUME

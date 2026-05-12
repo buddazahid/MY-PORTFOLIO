@@ -6,6 +6,7 @@ import Cursor from "@/components/Cursor";
 import Loader from "@/components/Loader";
 import ScrollProgress from "@/components/ScrollProgress";
 import Services from "@/components/Services";
+import Certificates from "@/components/Certificates";
 import { About, Experience, Projects, Skills, Education, Contact, Footer } from "@/components/Sections";
 
 export const Route = createFileRoute("/")({
@@ -36,6 +37,7 @@ function Index() {
         <Projects />
         <Skills />
         <Education />
+        <Certificates />
         <Contact />
       </main>
       <Footer />

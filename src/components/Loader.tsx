@@ -19,7 +19,7 @@ export default function Loader() {
               transition={{ duration: 0.5 }}
               className="font-display text-5xl font-bold text-gradient"
             >
-              MZ
+              BUDDA
             </motion.div>
             <motion.div
               initial={{ width: 0 }}

@@ -7,6 +7,7 @@ import Loader from "@/components/Loader";
 import ScrollProgress from "@/components/ScrollProgress";
 import Services from "@/components/Services";
 import Certificates from "@/components/Certificates";
+import FatherTribute from "@/components/FatherTribute";
 import GitHubContributions from "@/components/GitHubContributions";
 import { About, Experience, Projects, Skills, Education, Contact, Footer } from "@/components/Sections";
 
@@ -40,6 +41,7 @@ function Index() {
         <Skills />
         <Education />
         <Certificates />
+        <FatherTribute />
         <Contact />
       </main>
       <Footer />

@@ -7,6 +7,7 @@ import Loader from "@/components/Loader";
 import ScrollProgress from "@/components/ScrollProgress";
 import Services from "@/components/Services";
 import Certificates from "@/components/Certificates";
+import GitHubContributions from "@/components/GitHubContributions";
 import { About, Experience, Projects, Skills, Education, Contact, Footer } from "@/components/Sections";
 
 export const Route = createFileRoute("/")({

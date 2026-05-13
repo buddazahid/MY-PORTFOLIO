@@ -36,6 +36,7 @@ function Index() {
         <Services />
         <Experience />
         <Projects />
+        <GitHubContributions />
         <Skills />
         <Education />
         <Certificates />

@@ -10,6 +10,7 @@ import Certificates from "@/components/Certificates";
 import FatherTribute from "@/components/FatherTribute";
 import MotherTribute from "@/components/MotherTribute";
 import IntegrityTribute from "@/components/IntegrityTribute";
+import GrandparentsTribute from "@/components/GrandparentsTribute";
 import GitHubContributions from "@/components/GitHubContributions";
 import { About, Experience, Projects, Skills, Education, Contact, Footer } from "@/components/Sections";
 
@@ -46,6 +47,7 @@ function Index() {
         <FatherTribute />
         <MotherTribute />
         <IntegrityTribute />
+        <GrandparentsTribute />
         <Contact />
       </main>
       <Footer />

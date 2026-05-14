@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, type ReactElement } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Heart, Sparkles, Users, Compass, Trophy, Flame, ArrowUpRight, X } from "lucide-react";
 import Section from "./Section";
@@ -90,7 +90,7 @@ const tributes: {
   },
 ];
 
-const renderMap: Record<TributeKey, () => JSX.Element> = {
+const renderMap: Record<TributeKey, () => ReactElement> = {
   father: () => <FatherTribute />,
   mother: () => <MotherTribute />,
   integrity: () => <IntegrityTribute />,

@@ -215,6 +215,7 @@ export function Contact() {
     { Icon: Phone, label: "Phone", value: "+91 8310500530", href: "tel:+918310500530" },
     { Icon: Linkedin, label: "LinkedIn", value: "mohammed-zahid-budda", href: "https://www.linkedin.com/in/mohammed-zahid-budda" },
     { Icon: Github, label: "GitHub", value: "buddazahid", href: "https://github.com/buddazahid" },
+    { Icon: BookOpen, label: "Medium", value: "@buddazahid", href: "https://medium.com/@buddazahid" },
   ];
   return (
     <Section id="contact" eyebrow="07 — Contact">

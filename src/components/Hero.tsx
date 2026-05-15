@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { Download, Mail, Github, Linkedin, ArrowDown } from "lucide-react";
+import { Download, Mail, Github, Linkedin, ArrowDown, BookOpen } from "lucide-react";
 import profile from "@/assets/zahid.jpg";
 
 const titles = ["SOFTWARE ENGINEER", "ANDROID DEVELOPER", "FULL STACK BUILDER"];
@@ -115,6 +115,22 @@ export default function Hero() {
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full glass hover:bg-white/10 font-semibold uppercase tracking-wider text-sm transition"
           >
             <Mail size={18} /> CONTACT ME
+          </a>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.85 }}
+          className="mt-5 flex justify-center"
+        >
+          <a
+            href="https://medium.com/@buddazahid"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full glass hover:bg-white/10 font-medium text-sm transition"
+          >
+            <BookOpen size={16} /> Read my Medium articles
           </a>
         </motion.div>
 

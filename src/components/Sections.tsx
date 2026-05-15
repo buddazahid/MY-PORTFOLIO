@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import Section from "./Section";
 import {
   Briefcase, Smartphone, Wrench, GraduationCap, Mail, Phone, Github, Linkedin,
-  Code2, Database, Globe, Brain, ExternalLink, Sparkles
+  Code2, Database, Globe, Brain, ExternalLink, Sparkles, BookOpen
 } from "lucide-react";
 
 export function About() {

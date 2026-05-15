@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { Download, Mail, Github, Linkedin, ArrowDown } from "lucide-react";
+import { Download, Mail, Github, Linkedin, ArrowDown, BookOpen } from "lucide-react";
 import profile from "@/assets/zahid.jpg";
 
 const titles = ["SOFTWARE ENGINEER", "ANDROID DEVELOPER", "FULL STACK BUILDER"];

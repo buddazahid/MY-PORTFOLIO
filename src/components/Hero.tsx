@@ -119,6 +119,22 @@ export default function Hero() {
         </motion.div>
 
         <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.85 }}
+          className="mt-5 flex justify-center"
+        >
+          <a
+            href="https://medium.com/@buddazahid"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full glass hover:bg-white/10 font-medium text-sm transition"
+          >
+            <BookOpen size={16} /> Read my Medium articles
+          </a>
+        </motion.div>
+
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.7, delay: 1 }}

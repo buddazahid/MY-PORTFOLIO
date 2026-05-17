@@ -22,6 +22,14 @@ const certs = [
     desc: "Successfully completed the Employability Skill Training Programme conducted by Mahindra Pride Classroom in partnership with Naandi Foundation.",
     id: "Bearys First Grade College, Kodi",
   },
+  {
+    img: msdc,
+    title: "Internship on Data Science",
+    issuer: "Manipal Skill Development Centre (MSDC) · School of IT Skills",
+    date: "27 Apr 2026 – 16 May 2026",
+    desc: "Completed an internship on Data Science at the School of IT Skills, Manipal Skill Development Centre — an NSDC Approved Training Provider. Conduct and performance recognized as satisfactory.",
+    id: "MSDC/IT/INT-1/051/2026",
+  },
 ];
 
 export default function Certificates() {

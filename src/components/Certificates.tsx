@@ -4,6 +4,7 @@ import Section from "./Section";
 import bluestock from "@/assets/cert-bluestock.jpg";
 import naandi from "@/assets/cert-naandi.jpg";
 import msdc from "@/assets/cert-msdc.jpg";
+import msdcCertificate from "@/assets/cert-msdc-certificate.jpg";
 
 const certs = [
   {

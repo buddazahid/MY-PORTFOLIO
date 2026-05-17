@@ -102,7 +102,7 @@ export default function Hero() {
           className="mt-10 flex flex-wrap justify-center gap-4"
         >
           <a
-            href="https://drive.google.com/uc?export=download&id=1T7pCctw4f06MpT2d_JO3LMImX1HveIVR"
+            href="https://drive.google.com/file/d/1jzdYjkKJ2xn5Xys8AUAcUAPNcSTxJV_2/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             download="Mohammed-Zahid-Resume.pdf"

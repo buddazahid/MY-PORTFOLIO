@@ -4,6 +4,7 @@ import Section from "./Section";
 import bluestock from "@/assets/cert-bluestock.jpg";
 import naandi from "@/assets/cert-naandi.jpg";
 import msdc from "@/assets/cert-msdc.jpg";
+import msdcCertificate from "@/assets/cert-msdc-certificate.jpg";
 
 const certs = [
   {
@@ -29,6 +30,14 @@ const certs = [
     date: "27 Apr 2026 – 16 May 2026",
     desc: "Completed an internship on Data Science at the School of IT Skills, Manipal Skill Development Centre — an NSDC Approved Training Provider. Conduct and performance recognized as satisfactory.",
     id: "MSDC/IT/INT-1/051/2026",
+  },
+  {
+    img: msdcCertificate,
+    title: "Certificate — Internship on Data Science",
+    issuer: "Manipal Skill Development Centre (MSDC) · School of IT Skills",
+    date: "27 Apr 2026 – 16 May 2026",
+    desc: "Awarded the official certificate for successfully completing the Internship on Data Science organized by the School of IT Skills at Manipal Skill Development Center, Manipal.",
+    id: "MSDC/IT/26/0581",
   },
 ];
 

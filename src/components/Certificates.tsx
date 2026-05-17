@@ -3,6 +3,7 @@ import { Award, ExternalLink } from "lucide-react";
 import Section from "./Section";
 import bluestock from "@/assets/cert-bluestock.jpg";
 import naandi from "@/assets/cert-naandi.jpg";
+import msdc from "@/assets/cert-msdc.jpg";
 
 const certs = [
   {
